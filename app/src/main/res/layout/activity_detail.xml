@@ -7,9 +7,9 @@
     android:orientation="vertical"
     tools:context="com.androidtraining.kathmandu.view.DetailActivity">
 
-    <fragment
-        android:id="@+id/fragment"
-        android:name="com.androidtraining.kathmandu.view.DetailFragmentLinear"
+    <FrameLayout
+        android:id="@+id/details_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        />
 </LinearLayout>

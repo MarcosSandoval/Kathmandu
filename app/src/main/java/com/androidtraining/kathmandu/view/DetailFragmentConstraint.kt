@@ -15,6 +15,12 @@ import com.androidtraining.kathmandu.R
  */
 class DetailFragmentConstraint : Fragment() {
 
+    companion object {
+        fun newInstance() : Fragment{
+            return DetailFragmentConstraint()
+        }
+    }
+
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {

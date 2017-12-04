@@ -15,6 +15,12 @@ import com.androidtraining.kathmandu.R
  */
 class DetailFragmentRelative : Fragment() {
 
+    companion object {
+        fun newInstance() : Fragment{
+            return DetailFragmentRelative()
+        }
+    }
+
 
     override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?,
                               savedInstanceState: Bundle?): View? {
