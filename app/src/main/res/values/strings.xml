@@ -25,4 +25,13 @@
     <string name="button_19">Button 19</string>
     <string name="button_20">Button 20</string>
     <string name="layout_3">Layout 3</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="linear_layout">Linear Layout</string>
+    <string name="go_to_linearlayout">Go to LinearLayout</string>
+    <string name="go_to_relativelayout">Go to RelativeLayout</string>
+    <string name="go_to_constraintlayout">Go to ConstraintLayout</string>
+    <string name="relative_layout">Relative Layout</string>
+    <string name="constraint_layout">Constraint Layout</string>
 </resources>

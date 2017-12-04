@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.androidtraining.kathmandu.view.DetailFragmentRelative">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        style="@style/Base.TextAppearance.AppCompat.Headline"
+        android:text="@string/relative_layout" />
+
+</RelativeLayout>
