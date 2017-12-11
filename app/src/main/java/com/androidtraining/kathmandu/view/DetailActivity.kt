@@ -7,7 +7,8 @@ class DetailActivity : MasterDetail() {
     enum class DetailsViews {
         LINEAR_DETAILS_VIEW,
         RELATIVE_DETAILS_VIEW,
-        CONSTRAINT_DETAILS_VIEW
+        CONSTRAINT_DETAILS_VIEW,
+        OPTIMIZED_VIEW
     }
 
     companion object {

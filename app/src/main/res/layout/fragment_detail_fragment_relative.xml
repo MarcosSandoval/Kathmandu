@@ -21,7 +21,7 @@
         android:layout_below="@+id/tv_fragment_name"
         android:layout_centerHorizontal="true"
         android:gravity="center_horizontal"
-        android:text="@string/layout_1" />
+        android:text="@string/layout" />
 
     <Button
         android:id="@+id/btn_button2"
@@ -32,7 +32,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="@dimen/linear_button_margin_left"
         android:layout_marginTop="@dimen/linear_button_margin_top"
-        android:text="@string/button_2" />
+        android:text="@string/button_text" />
 
     <Button
         android:id="@+id/btn_button1"
@@ -43,7 +43,7 @@
         android:layout_marginStart="@dimen/linear_button_margin_left"
         android:layout_marginTop="@dimen/linear_button_margin_top"
         android:layout_toLeftOf="@+id/btn_button2"
-        android:text="@string/button_1" />
+        android:text="@string/button_text" />
 
     <Button
         android:id="@+id/btn_button3"
@@ -54,7 +54,7 @@
         android:layout_marginStart="@dimen/linear_button_margin_left"
         android:layout_marginTop="@dimen/linear_button_margin_top"
         android:layout_toRightOf="@+id/btn_button2"
-        android:text="@string/button_3" />
+        android:text="@string/button_text" />
 
     <Button
         android:id="@+id/btn_button5"
@@ -65,7 +65,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="@dimen/linear_button_margin_left"
         android:layout_marginTop="@dimen/linear_button_margin_top"
-        android:text="@string/button_5" />
+        android:text="@string/button_text" />
 
     <Button
         android:id="@+id/btn_button4"
@@ -76,7 +76,7 @@
         android:layout_marginStart="@dimen/linear_button_margin_left"
         android:layout_marginTop="@dimen/linear_button_margin_top"
         android:layout_toLeftOf="@+id/btn_button5"
-        android:text="@string/button_4" />
+        android:text="@string/button_text" />
 
     <Button
         android:id="@+id/btn_button6"
@@ -87,7 +87,7 @@
         android:layout_marginStart="@dimen/linear_button_margin_left"
         android:layout_marginTop="@dimen/linear_button_margin_top"
         android:layout_toRightOf="@+id/btn_button5"
-        android:text="@string/button_6" />
+        android:text="@string/button_text" />
 
     <Button
         android:id="@+id/btn_button8"
@@ -98,7 +98,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="@dimen/linear_button_margin_left"
         android:layout_marginTop="@dimen/linear_button_margin_top"
-        android:text="@string/button_5" />
+        android:text="@string/button_text" />
 
     <Button
         android:id="@+id/btn_button7"
@@ -109,7 +109,7 @@
         android:layout_marginStart="@dimen/linear_button_margin_left"
         android:layout_marginTop="@dimen/linear_button_margin_top"
         android:layout_toLeftOf="@+id/btn_button8"
-        android:text="@string/button_4" />
+        android:text="@string/button_text" />
 
     <Button
         android:id="@+id/btn_button9"
@@ -120,7 +120,7 @@
         android:layout_marginStart="@dimen/linear_button_margin_left"
         android:layout_marginTop="@dimen/linear_button_margin_top"
         android:layout_toRightOf="@+id/btn_button8"
-        android:text="@string/button_6" />
+        android:text="@string/button_text" />
 
     <TextView
         android:id="@+id/tv_layout_name2"
@@ -130,7 +130,7 @@
         android:layout_below="@+id/btn_button7"
         android:layout_centerHorizontal="true"
         android:gravity="center_horizontal"
-        android:text="@string/layout_2" />
+        android:text="@string/layout" />
 
     <Button
         android:id="@+id/btn_button11"
@@ -141,7 +141,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="@dimen/linear_button_margin_left"
         android:layout_marginTop="@dimen/linear_button_margin_top"
-        android:text="@string/button_8" />
+        android:text="@string/button_text" />
 
     <Button
         android:id="@+id/btn_button10"
@@ -152,7 +152,7 @@
         android:layout_marginStart="@dimen/linear_button_margin_left"
         android:layout_marginTop="@dimen/linear_button_margin_top"
         android:layout_toLeftOf="@+id/btn_button11"
-        android:text="@string/button_7" />
+        android:text="@string/button_text" />
 
     <Button
         android:id="@+id/btn_button12"
@@ -163,7 +163,7 @@
         android:layout_marginStart="@dimen/linear_button_margin_left"
         android:layout_marginTop="@dimen/linear_button_margin_top"
         android:layout_toRightOf="@+id/btn_button11"
-        android:text="@string/button_9" />
+        android:text="@string/button_text" />
 
     <Button
         android:id="@+id/btn_button14"
@@ -174,7 +174,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="@dimen/linear_button_margin_left"
         android:layout_marginTop="@dimen/linear_button_margin_top"
-        android:text="@string/button_11" />
+        android:text="@string/button_text" />
 
     <Button
         android:id="@+id/btn_button13"
@@ -185,7 +185,7 @@
         android:layout_marginStart="@dimen/linear_button_margin_left"
         android:layout_marginTop="@dimen/linear_button_margin_top"
         android:layout_toLeftOf="@+id/btn_button14"
-        android:text="@string/button_10" />
+        android:text="@string/button_text" />
 
     <Button
         android:id="@+id/btn_button15"
@@ -196,7 +196,7 @@
         android:layout_marginStart="@dimen/linear_button_margin_left"
         android:layout_marginTop="@dimen/linear_button_margin_top"
         android:layout_toRightOf="@+id/btn_button14"
-        android:text="@string/button_12" />
+        android:text="@string/button_text" />
 
     <Button
         android:id="@+id/btn_button17"
@@ -207,7 +207,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="@dimen/linear_button_margin_left"
         android:layout_marginTop="@dimen/linear_button_margin_top"
-        android:text="@string/button_11" />
+        android:text="@string/button_text" />
 
     <Button
         android:id="@+id/btn_button16"
@@ -218,7 +218,7 @@
         android:layout_marginStart="@dimen/linear_button_margin_left"
         android:layout_marginTop="@dimen/linear_button_margin_top"
         android:layout_toLeftOf="@+id/btn_button17"
-        android:text="@string/button_10" />
+        android:text="@string/button_text" />
 
     <Button
         android:id="@+id/btn_button18"
@@ -229,7 +229,7 @@
         android:layout_marginStart="@dimen/linear_button_margin_left"
         android:layout_marginTop="@dimen/linear_button_margin_top"
         android:layout_toRightOf="@+id/btn_button17"
-        android:text="@string/button_12" />
+        android:text="@string/button_text" />
 
     <TextView
         android:id="@+id/tv_layout_name3"
@@ -239,7 +239,7 @@
         android:layout_below="@+id/btn_button17"
         android:layout_centerHorizontal="true"
         android:gravity="center_horizontal"
-        android:text="@string/layout_3" />
+        android:text="@string/layout" />
 
     <Button
         android:id="@+id/btn_button19"
@@ -250,7 +250,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="@dimen/linear_button_margin_left"
         android:layout_marginTop="@dimen/linear_button_margin_top"
-        android:text="@string/button_19" />
+        android:text="@string/button_text" />
 
     <Button
         android:id="@+id/btn_button20"
@@ -262,5 +262,5 @@
         android:layout_marginStart="@dimen/linear_button_margin_left"
         android:layout_marginTop="@dimen/linear_button_margin_top"
         android:layout_toRightOf="@+id/btn_button19"
-        android:text="@string/button_20" />
+        android:text="@string/button_text" />
 </RelativeLayout>

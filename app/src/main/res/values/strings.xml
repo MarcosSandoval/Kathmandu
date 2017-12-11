@@ -1,30 +1,9 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Kathmandu</string>
-    <string name="button_1">Button 1</string>
-    <string name="button_2">Button 2</string>
-    <string name="button_3">Button 3</string>
-    <string name="button_4">Button 4</string>
-    <string name="button_5">Button 5</string>
-    <string name="button_6">Button 6</string>
-    <string name="button_7">Button 7</string>
-    <string name="button_8">Button 8</string>
-    <string name="button_9">Button 9</string>
-    <string name="layout_1">Layout 1</string>
+    <string name="button_text">Button</string>
+    <string name="layout">Layout</string>
 
-    <string name="button_10">Button 10</string>
-    <string name="button_11">Button 11</string>
-    <string name="button_12">Button 12</string>
-    <string name="button_13">Button 13</string>
-    <string name="button_14">Button 14</string>
-    <string name="button_15">Button 15</string>
-    <string name="button_16">Button 16</string>
-    <string name="button_17">Button 17</string>
-    <string name="button_18">Button 18</string>
-    <string name="layout_2">Layout 2</string>
-
-    <string name="button_19">Button 19</string>
-    <string name="button_20">Button 20</string>
-    <string name="layout_3">Layout 3</string>
+    <string name="button_20" tools:keep="@string/button_20">Button 20</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
@@ -32,6 +11,7 @@
     <string name="go_to_linearlayout">Go to LinearLayout</string>
     <string name="go_to_relativelayout">Go to RelativeLayout</string>
     <string name="go_to_constraintlayout">Go to ConstraintLayout</string>
+    <string name="go_to_optimized">Go to Optimized</string>
     <string name="relative_layout">Relative Layout</string>
     <string name="constraint_layout">Constraint Layout</string>
 </resources>
