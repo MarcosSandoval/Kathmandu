@@ -7,11 +7,7 @@
 
     <TextView
         android:id="@+id/textView5"
-        style="@style/Base.TextAppearance.AppCompat.Headline"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/textView_margin"
+        style="@style/MainTextViewStyle"
         android:text="@string/optimize_layout" />
 
     <include

@@ -7,23 +7,13 @@
 
     <TextView
         android:id="@+id/tv_layout1"
-        style="@android:style/TextAppearance.DeviceDefault.Medium"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/layout"
+        style="@style/TextViewStyle"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
     <Button
         android:id="@+id/button1"
-        style="?android:attr/buttonBarButtonStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/linear_button_margin_bottom"
-        android:layout_marginTop="@dimen/linear_button_margin_top"
-        android:drawablePadding="@dimen/button_drawable_padding"
-        android:drawableStart="@drawable/ic_account_circle_black_24dp"
-        android:text="@string/button_text"
+        style="@style/ButtonsStyle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button2"
         app:layout_constraintStart_toStartOf="parent"
@@ -31,14 +21,7 @@
 
     <Button
         android:id="@+id/button2"
-        style="?android:attr/buttonBarButtonStyle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/linear_button_margin_bottom"
-        android:layout_marginTop="@dimen/linear_button_margin_top"
-        android:drawablePadding="@dimen/button_drawable_padding"
-        android:drawableStart="@drawable/ic_account_circle_black_24dp"
-        android:text="@string/button_text"
+        style="@style/ButtonsStyle"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/button1"
