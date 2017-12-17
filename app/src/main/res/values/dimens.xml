@@ -7,4 +7,5 @@
     <dimen name="button_margin_start_end">8dp</dimen>
     <dimen name="textView_margin">8dp</dimen>
     <dimen name="button_drawable_padding">5dp</dimen>
+    <dimen name="button_text_size">14sp</dimen>
 </resources>
