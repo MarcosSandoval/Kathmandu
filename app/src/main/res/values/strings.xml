@@ -14,4 +14,5 @@
     <string name="go_to_optimized">Go to Optimized</string>
     <string name="relative_layout">Relative Layout</string>
     <string name="constraint_layout">Constraint Layout</string>
+    <string name="optimize_layout">Optimize Layout</string>
 </resources>
