@@ -8,7 +8,8 @@ class DetailActivity : MasterDetail() {
         LINEAR_DETAILS_VIEW,
         RELATIVE_DETAILS_VIEW,
         CONSTRAINT_DETAILS_VIEW,
-        OPTIMIZED_VIEW
+        OPTIMIZED_VIEW,
+        EDIT_TEXT_VIEW
     }
 
     companion object {

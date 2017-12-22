@@ -15,4 +15,6 @@
     <string name="relative_layout">Relative Layout</string>
     <string name="constraint_layout">Constraint Layout</string>
     <string name="optimize_layout">Optimize Layout</string>
+    <string name="go_to_edit_text">Go to Edit Text</string>
+    <string name="enter_a_phone_number">Enter a phone number</string>
 </resources>
