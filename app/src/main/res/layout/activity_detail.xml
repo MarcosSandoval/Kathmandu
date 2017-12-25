@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.androidtraining.kathmandu.view.MainActivity">
+    tools:context="com.androidtraining.kathmandu.view.DetailActivity">
 
-    <fragment
-        android:id="@+id/fragment_master"
-        android:name="com.androidtraining.kathmandu.view.MasterFragment"
+    <FrameLayout
+        android:id="@+id/details_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        />
 </LinearLayout>

@@ -8,4 +8,32 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ButtonsStyle" parent="Base.Widget.AppCompat.ButtonBar">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginBottom">@dimen/linear_button_margin_bottom</item>
+        <item name="android:layout_marginTop">@dimen/linear_button_margin_top</item>
+        <item name="android:drawablePadding">@dimen/button_drawable_padding</item>
+        <item name="android:drawableStart">@drawable/ic_account_circle_black_24dp</item>
+        <item name="android:text">@string/button_text</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+        <item name="android:textColor">@color/button_color_selector</item>
+    </style>
+
+    <style name="MainTextViewStyle" parent="TextAppearance.AppCompat.Headline">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_marginTop">@dimen/textView_margin</item>
+
+    </style>
+
+    <style name="TextViewStyle" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">@string/layout</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
 </resources>
