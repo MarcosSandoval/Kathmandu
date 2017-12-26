@@ -23,7 +23,7 @@ import java.util.regex.Pattern
 class EditTextFragment : Fragment(), TextWatcher {
 
 
-    private final val EMAIL_PATTERN = "^[a-zA-Z0-9#_~!\$&'()*+,;=:.\"(),:;<>@\\[\\]\\\\]+@[a-zA-Z0-9-]+(\\.[a-zA-Z0-9-]+)*\$"
+    private final val EMAIL_PATTERN = "^[a-zA-Z]+[a-zA-Z0-9!#\$%&'*+-/=?^_`{|}~;]*@[a-zA-Z]+[a-zA-Z0-9-]*[.][a-zA-Z]+\$"
     private var pattern = Pattern.compile(EMAIL_PATTERN)
     private lateinit var matcher : Matcher
 
