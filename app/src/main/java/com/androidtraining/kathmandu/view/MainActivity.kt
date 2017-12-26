@@ -1,7 +1,5 @@
 package com.androidtraining.kathmandu.view
 
-import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.androidtraining.kathmandu.R
@@ -19,6 +17,7 @@ class MainActivity : MasterDetail(), View.OnClickListener {
         btn_GoToRelative.setOnClickListener(this)
         btn_goToContraint.setOnClickListener(this)
         btn_goToOptimized.setOnClickListener(this)
+        btn_goToPhoneMask.setOnClickListener(this)
         btn_goToEditText.setOnClickListener(this)
         showDefaultDetail()
 
@@ -29,6 +28,7 @@ class MainActivity : MasterDetail(), View.OnClickListener {
             R.id.btn_goToLinear -> showDetailsLinear()
             R.id.btn_GoToRelative -> showDetailsRelative()
             R.id.btn_goToOptimized -> showDetailsOptimized()
+            R.id.btn_goToPhoneMask -> showDetailsEmailMask()
             R.id.btn_goToEditText -> showDetailsEditText()
             else -> showDetailsConstraint()
         }

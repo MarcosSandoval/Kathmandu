@@ -31,10 +31,17 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/go_to_optimized" />
+    <Button
+        android:id="@+id/btn_goToPhoneMask"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/go_to_phone_mask" />
 
     <Button
         android:id="@+id/btn_goToEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/go_to_edit_text" />
+
+
 </LinearLayout>
