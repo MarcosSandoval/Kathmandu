@@ -9,7 +9,6 @@ import android.text.TextWatcher
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.view.inputmethod.InputMethodManager
 
 import com.androidtraining.kathmandu.R
 import kotlinx.android.synthetic.main.fragment_edit_text.*
@@ -23,8 +22,16 @@ import java.util.regex.Pattern
 class EditTextFragment : Fragment(), TextWatcher {
 
 
-    private final val EMAIL_PATTERN = "^[a-zA-Z]+[a-zA-Z0-9!#\$%&'*+-/=?^_`{|}~;]*@[a-zA-Z]+[a-zA-Z0-9-]*[.][a-zA-Z]+\$"
-    private var pattern = Pattern.compile(EMAIL_PATTERN)
+    private val EMAIL_PATTERN = "^[a-zA-Z]+[a-zA-Z0-9!#\$%&'*+-/=?^_`{|}~;]*@[a-zA-Z]+[a-zA-Z0-9-]*[.][a-zA-Z]+\$"
+    private val URL_PATTERN = "^((http(s)*|ftp|mailto|file|data|irc):\\/\\/){1}(([a-zA-Z]+[a-zA-Z0-9!#\$%&'*+-\\/=?^_`{|}~;]*)(:+[a-zA-Z0-9]+[a-zA-Z0-9!#\$%&'*+-\\/=?^_`{|}~;]*)?@?)?([[0-9A-Za-z]{1}[0-9a-zA-Z_.]{0,62}|(([0-9]{1,3}\\.){3}[0-9]{1,3}))(:{1}[0-9]+)*(\\/{1}[a-zA-Z0-9!#\$%&'*+-\\/=?^_`{|}~;]+)*\$"
+    private val PHONE_PATTERN = "^(\\({1}\\+\\d{1,3}\\){1}|(\\+\\d{1,3}))?((\\d{4}[-.*_]{1}\\d{4})|((\\d{2}[-.*_]{1}){3}(\\d{2}){1}))+\$"
+    private val YEAR_PATTERN = "([0-9]{2}|[0-9]{4})"
+    private val MONTH_PATTERN = "(0?[1-9]{1}|[1-2]{1}[0-2]{1})"
+    private val DAY_PATTERN = "([1-2]{1}\\d{0,1}|3{1}[0-1]{1}|0*[1-9]{1})"
+    private val HOUR_PATTERN = "(0?\\d{1}|1{1}\\d{1}|2{1}[0-3]{1})"
+    private val MINUTE_SECOND_PATTERN = "([0-5]{1}\\d{0,1})"
+    private val DATE_TIME_PATTERN = "^("+DAY_PATTERN+"{1}[-_\\/.]{1}"+MONTH_PATTERN+"{1}[-_\\/.]{1}"+YEAR_PATTERN+"{1})\$"
+    private var pattern = Pattern.compile(DATE_TIME_PATTERN)
     private lateinit var matcher : Matcher
 
     companion object {
