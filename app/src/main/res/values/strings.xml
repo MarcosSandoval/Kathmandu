@@ -15,8 +15,11 @@
     <string name="relative_layout">Relative Layout</string>
     <string name="constraint_layout">Constraint Layout</string>
     <string name="optimize_layout">Optimize Layout</string>
-    <string name="go_to_phone_mask">Go to Phone mask</string>
-    <string name="go_to_edit_text">Go to Edit Text</string>
+    <string name="go_to_user_inputs">Go to User Inputs</string>
     <string name="enter_a_phone_number">Enter a phone number</string>
     <string name="text_inputs">Text inputs</string>
+    <string name="wrong_phone_number">Wrong phone number</string>
+    <string name="wrong_date">Wrong date time</string>
+    <string name="wrong_url">Wrong url</string>
+    <string name="wrong_email">Wrong email</string>
 </resources>

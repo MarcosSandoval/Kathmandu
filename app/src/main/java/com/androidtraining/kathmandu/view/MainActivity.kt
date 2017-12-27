@@ -17,8 +17,7 @@ class MainActivity : MasterDetail(), View.OnClickListener {
         btn_GoToRelative.setOnClickListener(this)
         btn_goToContraint.setOnClickListener(this)
         btn_goToOptimized.setOnClickListener(this)
-        btn_goToPhoneMask.setOnClickListener(this)
-        btn_goToEditText.setOnClickListener(this)
+        btn_goToUserInputs.setOnClickListener(this)
         showDefaultDetail()
 
     }
@@ -28,8 +27,7 @@ class MainActivity : MasterDetail(), View.OnClickListener {
             R.id.btn_goToLinear -> showDetailsLinear()
             R.id.btn_GoToRelative -> showDetailsRelative()
             R.id.btn_goToOptimized -> showDetailsOptimized()
-            R.id.btn_goToPhoneMask -> showDetailsEmailMask()
-            R.id.btn_goToEditText -> showDetailsEditText()
+            R.id.btn_goToUserInputs -> showUserInputsView()
             else -> showDetailsConstraint()
         }
     }

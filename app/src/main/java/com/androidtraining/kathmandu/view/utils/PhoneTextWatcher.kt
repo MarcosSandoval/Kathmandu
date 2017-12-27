@@ -14,6 +14,7 @@ class PhoneTextWatcher(mask: String) : TextWatcher {
     private var current = ""
 
     override fun afterTextChanged(editText: Editable) {
+        var found = false
         val userInput = editText.toString()
         if(userInput != current){
             if(userInput.length <= maxLength){
@@ -33,8 +34,13 @@ class PhoneTextWatcher(mask: String) : TextWatcher {
                 if(input.isNotEmpty()){
                     for(symbol in currentMask){
                         if (symbol == '#'){
-                            sb.append(input)
-                            break
+                            if(!found){
+                                sb.append(input)
+                                found = true
+                            }
+                            else{
+                                break
+                            }
                         }
                         else{
                             sb.append(symbol)
@@ -51,10 +57,8 @@ class PhoneTextWatcher(mask: String) : TextWatcher {
     }
 
     override fun beforeTextChanged(p0: CharSequence?, startIndex: Int, count: Int, afterIndex: Int) {
-        var uno = "";
     }
 
     override fun onTextChanged(p0: CharSequence?, start: Int, before: Int, count: Int) {
-        var uno = "";
     }
 }

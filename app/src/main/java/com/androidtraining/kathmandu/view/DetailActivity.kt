@@ -9,8 +9,7 @@ class DetailActivity : MasterDetail() {
         RELATIVE_DETAILS_VIEW,
         CONSTRAINT_DETAILS_VIEW,
         OPTIMIZED_VIEW,
-        PHONE_MASK_VIEW,
-        EDIT_TEXT_VIEW
+        USER_INPUTS_VIEW
     }
 
     companion object {
